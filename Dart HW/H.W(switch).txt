@@ -1,0 +1,22 @@
+//H.W(switch)
+void main(){
+double x=10;
+double y= 20;
+String operation ="*";
+switch(operation){
+  case"+":
+    print(x+y);
+    break;
+  case"-":
+    print(x-y);
+    break;
+  case"*":
+    print(x*y);
+    break;
+  case"/":
+    print(x/y);
+    break;
+default: 
+  print("error");
+}
+}

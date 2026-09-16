@@ -1,0 +1,8 @@
+//H.W(do-while)
+void main(){
+int i=0;
+  do{
+    print(i);
+    i+=2;
+}while(i<=20);
+}
